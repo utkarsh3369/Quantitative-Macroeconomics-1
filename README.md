@@ -45,3 +45,23 @@ Basic undergraduate knowledge of macroeconomics as well as econometrics are requ
   - [ ] check your emails and cancel the meeting again using the link in the email
   - [ ] now you know how easy it is to schedule a meeting with me :-)
 - [ ] participate in the Q&A sessions
+
+
+## Week 2: Time Series Data and the AR(1) process
+
+### Goals
+
+- learn how to obtain macroeconomic data from different sources
+- learn how to visualize macroeconomic time series data and do some basic descriptive statistics with MATLAB
+- learn about different frequencies and what they can be useful for
+- understand the concept of a white noise process and an AR(1) process
+- get intuition about stationarity, autocovariance function, lag-operator, conditional and unconditional moments
+- simulate the AR(1) model in MATLAB
+
+### To Do
+
+- [ ] review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_1.pdf) and write down all your questions
+- [ ] Read Bjørnland and Thorsrud (2015, Ch.1 and Ch.2) and Lütkepohl (2004). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+- [ ] TRY (!!!) to do exercise sheet 2
+- [ ] participate in the Q&A sessions with all your questions and concerns
+- [ ] for immediate help: [schedule a meeting](https://schedule.mutschler.eu)

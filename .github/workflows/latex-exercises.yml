@@ -19,11 +19,13 @@ jobs:
         with:
           root_file: |
             week_1.tex
+            week_2.tex
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
           files:  |
             week_1.pdf
+            week_2.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
