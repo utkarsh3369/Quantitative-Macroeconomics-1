@@ -1,6 +1,7 @@
 [![Build LaTeX exercises as PDF](https://github.com/wmutschl/Quantitative-Macroeconomics/actions/workflows/latex-exercises.yml/badge.svg)](https://github.com/wmutschl/Quantitative-Macroeconomics/actions/workflows/latex-exercises.yml)
 
 # Quantitative Macroeconomics
+These are my course materials for the graduate course on Quantitative Macroeconomics taught at the University of Tübingen.
 The compiled materials (such as PDFs) are available under [Releases](https://github.com/wmutschl/Quantitative-Macroeconomics/releases).
 ## Content
 We cover modern theoretical macroeconomics (the study of aggregated variables such as economic growth, unemployment and inflation by means of structural macroeconomic models) and combine it with econometric methods (the application of formal statistical methods in empirical economics). We focus on the quantitative aspects and methods for solving and estimating the most prominent model classes in macroeconomics: Structural Vector Autoregressive (SVAR) and Dynamic Stochastic General Equilibrium (DSGE) models. Using these two model strands, the theoretical and methodological foundations of quantitative macroeconomics is taught. The students are thus enabled to understand the analyses and forecasts of public (universities, central banks, economic research institutes) as well as private (business banks, political consultations) research departments, but also to derive and empirically evaluate their own structural macroeconomic models.
@@ -19,4 +20,28 @@ Basic undergraduate knowledge of macroeconomics as well as econometrics are requ
 - [MATLAB](https://mathworks.com) or [Octave](https://octave.org)
 - [Dynare](https://www.dynare.org)
 
-## Syllabus
+
+## Week 1: Introductions
+
+### Goals
+
+- understand what Quantitative Macroeconomics is about
+- decide whether you want to take the course
+- prepare your computer for the course with MATLAB and GitKraken
+- do your first steps in MATLAB and GitKraken
+
+### To Do
+
+- [ ] read the general course information
+- [ ] prepare the [exercises for week 1](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_1.pdf); we will do them together in class
+- [ ] prepare your computer
+  - [ ] install MATLAB R2022b following [this guide](https://uni-tuebingen.de/einrichtungen/zentrum-fuer-datenverarbeitung/dienstleistungen/clientdienste/software/matlab-einzelplatzlizenz/) if you are a student of the University of Tübingen
+  - [ ] create an account on [GitHub.com](https://github.com/signup)
+  - [ ] install the [GitKraken Client](https://gitkraken.com/download)
+  - [ ] sign up for the [GitHub Students Developer Pack](https://education.github.com/pack) to get a free Pro license for GitKraken (among other things)
+- [ ] write down all your questions
+- [ ] [schedule an online meeting](https://schedule.mutschler.eu) with me
+  - [ ] put *"I am interested in this course"* under *"What is the meeting about?"*
+  - [ ] check your emails and cancel the meeting again using the link in the email
+  - [ ] now you know how easy it is to schedule a meeting with me :-)
+- [ ] participate in the Q&A sessions
