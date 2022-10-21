@@ -1,5 +1,7 @@
-# Quantitative-Macroeconomics
+[![Build LaTeX exercises as PDF](https://github.com/wmutschl/Quantitative-Macroeconomics/actions/workflows/latex-exercises.yml/badge.svg)](https://github.com/wmutschl/Quantitative-Macroeconomics/actions/workflows/latex-exercises.yml)
 
+# Quantitative Macroeconomics
+The compiled materials (such as PDFs) are available under [Releases](https://github.com/wmutschl/Quantitative-Macroeconomics/releases).
 ## Content
 We cover modern theoretical macroeconomics (the study of aggregated variables such as economic growth, unemployment and inflation by means of structural macroeconomic models) and combine it with econometric methods (the application of formal statistical methods in empirical economics). We focus on the quantitative aspects and methods for solving and estimating the most prominent model classes in macroeconomics: Structural Vector Autoregressive (SVAR) and Dynamic Stochastic General Equilibrium (DSGE) models. Using these two model strands, the theoretical and methodological foundations of quantitative macroeconomics is taught. The students are thus enabled to understand the analyses and forecasts of public (universities, central banks, economic research institutes) as well as private (business banks, political consultations) research departments, but also to derive and empirically evaluate their own structural macroeconomic models.
 
