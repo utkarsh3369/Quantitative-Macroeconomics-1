@@ -65,3 +65,4 @@ Basic undergraduate knowledge of macroeconomics as well as econometrics are requ
 - [ ] TRY (!!!) to do exercise sheet 2
 - [ ] participate in the Q&A sessions with all your questions and concerns
 - [ ] for immediate help: [schedule a meeting](https://schedule.mutschler.eu)
+- [ ] (optionally) checkout the short [Beginner Git Video Tutorials from GitKraken](https://www.gitkraken.com/learn/git/tutorials)
