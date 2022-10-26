@@ -22,7 +22,7 @@ To this end, do the following:
 \item Redo the previous exercise for (i) 1980Q1 to 2012Q4, (ii) 2012Q4 to 2019Q4, and (iii) 2020Q1 to 2022Q2
 \item Redo the whole exercise for another country of your choice.
 Do a Pull Request on the course's \href{https://github.com/wmutschl/Quantitative-Macroeconomics}{GitHub repository}.
-  to upload the used data file (preferably as csv or xlsx) and your MATLAB script.
+  to upload the used data file (preferably as csv) and your MATLAB script.
 \end{enumerate}
 
 \paragraph{Readings}

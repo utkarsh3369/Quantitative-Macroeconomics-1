@@ -29,7 +29,7 @@
    \item Consider the plots in figure \ref{fig:NorwayData} jointly.
    What are possible macroeconomic issues that could be analyzed?
    \item How do you aggregate time series of stock variables (like capital or debt) and of flow variables (like GDP)?
-   That is, if you have monthly data, how do you get a quarterly time series?
+   For example, if you have monthly data, how do you get a quarterly time series?
 \end{enumerate}
 
 \paragraph{Readings}

@@ -1,12 +1,16 @@
 \section[Properties AR(1) With Time Trend]{Properties AR(1) With Time Trend\label{ex:PropertiesAR1TimeTrend}}
 
-Consider the AR(1) model with a constant and time trend
+Consider the univariate AR(1) model with a constant and time trend
 $$ y_t = c + d\cdot t + \phi y_{t-1} + u_t$$
 where $u_t \sim WN(0,\sigma_u^2)$, $|\phi|<1$, $c \in \mathbb{R}$ and $d \in \mathbb{R}$.
 \begin{enumerate}
 	\item Compute the unconditional first and second moments, i.e. the unconditional mean, variance, autocovariance and autocorrelation of $y_t$.	
 	\item Why is this process not covariance-stationary? How could one proceed to make it covariance-stationary?	
 \end{enumerate}
+\textbf{Hints:}
+\begin{itemize}
+	\item If $|\phi|<1$, then $\sum_{j=0}^{\infty} \phi^j j = \frac{\phi}{(1-\phi^2)}$
+\end{itemize}
 
 \paragraph{Readings}
 \begin{itemize}
