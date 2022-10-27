@@ -30,6 +30,7 @@ title('GDP growth (% - quarterly)')
 xtickformat('yyyy-QQQ')
 set(h.Parent, 'XTick', NorwayGDP.observation_date(4:16:end)) % get more ticks
 sampleSize(1,1) = length(gpd_growth);
+
 %% Unemployment rate (rate - monthly)
 opts = spreadsheetImportOptions("NumVariables", 2);
 opts.Sheet = "FRED Graph"; % Specify sheet
