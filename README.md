@@ -47,16 +47,16 @@ Basic undergraduate knowledge of macroeconomics as well as econometrics are requ
 - [ ] participate in the Q&A sessions
 
 
-## Week 2: Time Series Data and the AR(1) process
+## Week 2: Time series data and fundamental concepts
 
 ### Goals
 
 - learn how to obtain macroeconomic data from different sources
 - learn how to visualize macroeconomic time series data and do some basic descriptive statistics with MATLAB
 - learn about different frequencies and what they can be useful for
-- understand the concept of a white noise process and an AR(1) process
+- understand the concept of a white noise process
 - get intuition about stationarity, autocovariance function, lag-operator, conditional and unconditional moments
-- simulate the AR(1) model in MATLAB
+- simulate white noise processes and moving-averages in MATLAB
 
 ### To Do
 
@@ -65,4 +65,23 @@ Basic undergraduate knowledge of macroeconomics as well as econometrics are requ
 - [ ] TRY (!!!) to do exercise sheet 2
 - [ ] participate in the Q&A sessions with all your questions and concerns
 - [ ] for immediate help: [schedule a meeting](https://schedule.mutschler.eu)
-- [ ] (optionally) checkout the short [Beginner Git Video Tutorials from GitKraken](https://www.gitkraken.com/learn/git/tutorials)
+- [ ] (optionally) checkout the short [Beginner Git Video Tutorials from GitKraken](https://www.gitkraken.com/learn/git/tutorials#beginner)
+
+
+## Week 3: Dependent time series data and the autoregressive process
+
+### Goals
+
+- understand the concept of an AR(1) and AR(p) process
+- get intuition about the law of large numbers and the central limit theorem
+- visualize the law of large numbers and the central limit theorem for dependent data using Monte Carlo simulations
+
+
+### To Do
+
+- [ ] review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_2.pdf) and write down all your questions
+- [ ] Read Lütkepohl (2004), Lütkepohl (2005, Appendix C) and Bjørnland and Thorsrud (2015, Ch.1 and Ch.2). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+- [ ] TRY (!!!) to do exercise sheet 3
+- [ ] participate in the Q&A sessions with all your questions and concerns
+- [ ] for immediate help: [schedule a meeting](https://schedule.mutschler.eu)
+- [ ] (optionally) checkout the short [Intermediate Git Video Tutorials from GitKraken](https://www.gitkraken.com/learn/git/tutorials#intermediate)

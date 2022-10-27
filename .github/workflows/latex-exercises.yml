@@ -20,6 +20,7 @@ jobs:
           root_file: |
             week_1.tex
             week_2.tex
+            week_3.tex
 
       - name: Create Release
         uses: ncipollo/release-action@v1
