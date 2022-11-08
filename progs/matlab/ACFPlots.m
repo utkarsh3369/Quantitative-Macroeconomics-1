@@ -1,42 +1,33 @@
-function r_k = ACFPlots(y,pmax,alph)
+function RHOHAT = ACFPlots(y,pmax,alph)
 % =======================================================================
-% r_k = ACFPlots(y,pmax,alph)
+% RHOHAT = ACFPlots(y,pmax,alph)
 % =======================================================================
 % Computes and plots the empirical autocorrelation function
-% c_k = 1/T*\sum_{t=k+1}^T (y_t-\bar{y})(y_{t-k}-\bar{y})
-% r_k = c_k/c0
+% \hat{\gamma}_k = 1/T*\sum_{t=k+1}^T (y_t-\bar{y})(y_{t-k}-\bar{y})
+% \hat{rho}_k = \hat{\gamma}_k/\hat{\gamma}_0
 % -----------------------------------------------------------------------
 % INPUTS
-%   - y    : Vector of data. [periods x 1]
-%   - pmax : Maximum number of lags to plot. [scalar]
-%   - alph : Significance level for asymptotic bands. [scalar, e.g. 0.05]
+%   - y      [periods x 1] vector of data
+%   - pmax   [scalar]      maximum number of lags to plot
+%   - alph   [scalar]      significance level for asymptotic bands, e.g. 0.05
 % -----------------------------------------------------------------------
 % OUTPUTS
-%   - rk   : Sample autocorrelation coefficient. [1 x maxlags]
+%   - RHOHAT [1 x pmax]  Sample autocorrelation coefficient
 % =======================================================================
-% TEST CASE
-% ARPlots
-% r_k1 = ACFPlots(Y(:,1),8,0.05)
-% r_k2 = ACFPlots(Y(:,2),8,0.05)
-% r_k3 = ACFPlots(Y(:,3),8,0.05)
-% r_k4 = ACFPlots(Y(:,4),8,0.05)
-% you can compare to Matlab's econometrics toolbox:
-% figure; autocorr(Y(:,1),'NumLags',8);
-% =======================================================================
-% Willi Mutschler, October 29, 2022
+% Willi Mutschler, November 07, 2022
 % willi@mutschler.eu
 % =======================================================================
 
 T=size(y,1);             % get number of periodes
 y_demeaned = y-mean(y);  % put y in deviations from mean
-r_k = nan(1,pmax);       % initialize output vector
+RHOHAT = nan(1,pmax);    % initialize output vector
 
 % Compute variance
 c0 = 1/T*(y_demeaned' * y_demeaned);
 % Compute autocorrelations
 for k=1:pmax
     c_k = 1/T * (y_demeaned(1+k:T,:)' * y_demeaned(1:T-k,:));
-    r_k(1,k) = c_k/c0;
+    RHOHAT(1,k) = c_k/c0;
 end
 
 % Asymptotic bands
@@ -45,8 +36,7 @@ ul = repmat(critval/sqrt(T),pmax,1);
 ll = -1*ul;
 
 % Barplots
-figure('name','Autocorrelation');
-bar(r_k);
+bar(RHOHAT);
 hold on;
 plot(1:pmax,ul,'color','black','linestyle','--');
 plot(1:pmax,ll,'color','black','linestyle','--');
