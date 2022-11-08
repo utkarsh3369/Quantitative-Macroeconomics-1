@@ -21,6 +21,7 @@ jobs:
             week_1.tex
             week_2.tex
             week_3.tex
+            week_4.tex
 
       - name: Create Release
         uses: ncipollo/release-action@v1

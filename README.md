@@ -85,3 +85,21 @@ Basic undergraduate knowledge of macroeconomics as well as econometrics are requ
 - [ ] participate in the Q&A sessions with all your questions and concerns
 - [ ] for immediate help: [schedule a meeting](https://schedule.mutschler.eu)
 - [ ] (optionally) checkout the short [Intermediate Git Video Tutorials from GitKraken](https://www.gitkraken.com/learn/git/tutorials#intermediate)
+
+
+## Week 4: Ordinary Least Squares (OLS) and Maximum Likelihood (ML) estimation of the autoregressive process
+
+### Goals
+
+- review OLS and ML for the AR(p) process
+- implement OLS and ML estimation of the AR(p) process
+
+
+### To Do
+
+- [ ] review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_3.pdf) and write down all your questions
+- [ ] Read Lütkepohl (2004). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+- [ ] TRY (!!!) to do exercise sheet 4
+- [ ] participate in the Q&A sessions with all your questions and concerns
+- [ ] for immediate help: [schedule a meeting](https://schedule.mutschler.eu)
+- [ ] (optionally) checkout the short [Advanced Git Video Tutorials from GitKraken](https://www.gitkraken.com/learn/git/tutorials#advanced)
