@@ -1,22 +1,41 @@
 \section[Properties of AR(1)]{Properties Of AR(1)\label{ex:PropertiesAR1}}
 
 Let $\{\varepsilon_t\}$ be a white noise process with variance $\sigma_\varepsilon^2$.
+
 \begin{enumerate}
-	\item Consider the univariate first-order autoregressive process AR(1): 
-	$$y_t = \phi y_{t-1} + \varepsilon_{t}$$
-	Derive the conditional and unconditional first and second moments.	
-	\item  Simulate different AR(1) processes and plot the corresponding autocorrelation function (ACF). To this end write a function \texttt{ACFPlots($y$,$p^{max}$,$\alpha$)} to plot the ACF of the data vector $y$ with maximum number of lags $p^{max}$. Also include an approximate (1-$\alpha$)\% confidence interval around zero in your plot. Hints: 
-		 \begin{itemize}
-		 	\item The empirical autocorrelation function at lag $k$ is defined as $r_k = c_k/c_0$ where
-			$$c_k = \frac{1}{T} \sum_{t=k+1}^T (y_t - \bar{y})(y_{t-k}-\bar{y})$$ and $$c_0 = \frac{1}{T} \sum_{t=1}^T (y_t - \bar{y})(y_{t}-\bar{y})$$
-			\item You can either use a for-loop to compute the sum or use vectors: $(y - \bar{y})'(y - \bar{y})$.
-		 	\item The sample autocorrelation function is an estimate of the actual autocorrelation only if the process is stationary. If the process is purely random, that is, all members are mutually independent and identically distributed so that $y_t$ and $y_{t-k}$ are stochastically independent for $k\neq 0$, then the normalized estimated autocorrelations are asymptotically standard normally distributed, i.e. $\sqrt{T} r_k \rightarrow U \sim N(0,1)$ and thus $r_k \rightarrow \tilde{U} \sim N(0,1/T)$. 
-		 \end{itemize}	
-\end{enumerate}
-\textbf{Hints:}
+\item Consider the univariate first-order autoregressive process AR(1): 
+$$y_t = c + \phi y_{t-1} + \varepsilon_{t}$$
+where $|\phi|<1$ and $c\in \mathbb{R}$.
+Derive the unconditional first and second moments.
+
+\emph{Hint:}
 \begin{itemize}
 	\item If $|\phi|<1$, then $\sum_{j=0}^{\infty} \phi^j = \frac{1}{(1-\phi)}$
 \end{itemize}
+
+\item Do the following simulation exercise:
+\begin{itemize}
+	\item Simulate AR(1) processes for $t=1,...,200$ with $c=2$, $\sigma_\varepsilon^2 = 1^2$ and different values of $\phi=\{-0.8;0.4;0.9;1.01\}$.
+	\item Plot the corresponding autocorrelation functions (ACF) for data vector $y$ and maximum number of lags $p^{max}=8$ using MATLAB's \texttt{autocorr(y,'NumLags',8)} function.
+	\item Write a function \texttt{ACFPlots($y$,$p^{max}$,$\alpha$)} that plots the autocorrelation function (ACF) of the data vector $y$ with maximum number of lags $p^{max}$.
+	Your plot should also include an approximate (1-$\alpha$)\% confidence interval around zero.
+	Your plots should look similar to MATLAB's \texttt{autocorr} command.
+\end{itemize}
+	
+\emph{Hints}:
+\begin{itemize}
+	\item The empirical autocorrelation function at lag $k$ is defined as $\hat{\rho}_k = \hat{\gamma}_k/\hat{\gamma}_0$ where
+	  $$\hat{\gamma}_k = \frac{1}{T} \sum_{t=k+1}^T (y_t - \bar{y})(y_{t-k}-\bar{y})$$ and $$\hat{\gamma}_0 = \frac{1}{T} \sum_{t=1}^T (y_t - \bar{y})(y_{t}-\bar{y})$$
+	\item You can either use a for-loop to compute the sum or use vectors: $(y - \bar{y})'(y - \bar{y})$.
+	\item The sample autocorrelation function is an estimate of the actual autocorrelation only if the process is stationary.
+	If the process is purely random, that is, all members are mutually independent and identically distributed,
+	  then $y_t$ and $y_{t-k}$ should be stochastically independent for any $k\neq 0$.
+	According to the Lindeberg-Leby central limit theorem (see corresponding exercise),
+	  the normalized estimated autocorrelations are asymptotically standard normally distributed,
+	  i.e. $\sqrt{T} \hat{\rho}_k \rightarrow U \sim N(0,1)$ and thus $\hat{\rho}_k \rightarrow \tilde{U} \sim N(0,1/T)$.
+\end{itemize}
+
+\end{enumerate}
 
 \paragraph{Readings}
 

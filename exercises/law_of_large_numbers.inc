@@ -7,6 +7,8 @@ Define the sequence of random variables
 \end{equation*}
 \begin{enumerate}
 \item Briefly outline the intuition behind the \enquote{law of large numbers}.
+What are the differences between \enquote{almost-sure convergence}
+  and \enquote{convergence in probability}?
 \item Write a program to illustrate the law of large numbers for uniformly distributed random variables
   (you may also try different distributions such as normal, gamma, geometric, student's t with finite or infinite variance).
 To this end, do the following:
