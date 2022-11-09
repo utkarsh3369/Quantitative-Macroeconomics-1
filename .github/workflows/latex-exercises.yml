@@ -17,11 +17,8 @@ jobs:
       - name: Compile LaTex documents
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: |
-            week_1.tex
-            week_2.tex
-            week_3.tex
-            week_4.tex
+          root_file: "week*.tex"
+          glob_root_file: true
 
       - name: Create Release
         uses: ncipollo/release-action@v1
