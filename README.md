@@ -103,3 +103,20 @@ Basic undergraduate knowledge of macroeconomics as well as econometrics are requ
 - [ ] participate in the Q&A sessions with all your questions and concerns
 - [ ] for immediate help: [schedule a meeting](https://schedule.mutschler.eu)
 - [ ] (optionally) checkout the short [Advanced Git Video Tutorials from GitKraken](https://www.gitkraken.com/learn/git/tutorials#advanced)
+
+## Week 5: Information Criteria, Specification Tests, and Bootstrap
+
+### Goals
+
+- understand the intuition of information criteria, specification tests and bootstrap
+- implement simple examples for information criteria, specification tests and bootstrap for the univariate AR(p) process
+
+
+### To Do
+
+- [ ] review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_4.pdf) and write down all your questions
+- [ ] Read Lütkepohl (2004) and Kilian and Lütkepohl (2007, Ch. 12). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+- [ ] TRY (!!!) to do exercise sheet 5
+- [ ] participate in the Q&A sessions with all your questions and concerns
+- [ ] for immediate help: [schedule a meeting](https://schedule.mutschler.eu)
+- [ ] (optionally) fork the course repository on GitHub
