@@ -39,6 +39,7 @@ I_a(\theta,\sigma_u^2) = \lim\limits_{T\rightarrow \infty}-\frac{1}{T} E
   \begin{align*}
   y_t = c + \theta y_{t-1} + u_t
   \end{align*}
+  \item Why do we often look at the log-likelihood function instead of the actual likelihood function?
   \item Regard the value of the first observation as deterministic or, equivalently,
     note that its contribution to the log-likelihood disappears asymptotically.
     Maximize analytically the conditional log-likelihood to get the ML estimators for $\theta$ and $\sigma_u$.
@@ -62,12 +63,15 @@ I_a(\theta,\sigma_u^2) = \lim\limits_{T\rightarrow \infty}-\frac{1}{T} E
     $\alpha$ denotes the significance level.
     The function computes 
     \begin{itemize}
-      \item the maximum likelihood estimates of an AR(p) model by numerically maximizing the conditional log-likelihood function
-      \item the standard errors by means of the asymptotic covariance matrix
+      \item the maximum likelihood estimates of an AR(p) model by numerically minimizing the negative conditional log-likelihood function using e.g. \texttt{fminunc}
+      \item the standard errors by means of the asymptotic covariance matrix, i.e. the inverse of the hessian of the negative log-likelihood function
+      (hint: gradient-based optimizers also output the hessian)
     \end{itemize}
     Save all results into a structure \enquote{ML} containing the estimates of $\theta$,
     its standard errors, t-statistics and p-values as well as the ML estimate of $\sigma_u$.
-    \item Load simulated data given in the CSV file \texttt{AR4.csv} and estimate an AR(4) model with constant term. Compare your results with the OLS estimators from the previous exercise.
+    
+    \item Load simulated data given in the CSV file \texttt{AR4.csv} and estimate an AR(4) model with constant term.
+    Compare your results with the OLS estimators from the previous exercise.
  	\end{enumerate}
 \end{enumerate}
 

@@ -14,7 +14,7 @@ Under the assumptions of stationarity and other standard regularity conditions o
 \end{align*}
 The residual variance may be estimated consistently by
 \begin{align*}
-\hat{\sigma}_u^2 = \frac{1}{T-p-1}\sum_{t=1}^T\hat{u}_t^2
+\hat{\sigma}_u^2 = \frac{1}{T-length(\theta)}\sum_{t=1}^T\hat{u}_t^2
 \end{align*}
 where $\hat{u}_t=y_t -Y_{t-1}'\hat{\theta}$ are the OLS residuals.
 

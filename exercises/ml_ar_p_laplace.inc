@@ -7,8 +7,10 @@ Assume that the error terms $u_t$ are i.i.d. Laplace distributed with known dens
 \begin{align*}
 f_{u_{t}}(u)=\frac{1}{2}\exp \left( -|u|\right)
 \end{align*}
-Note that for the above simplified parametrization of the Laplace distribution,
-  we have that $E(u_t)=0$ and $Var(u_t)=2$.
+Note that for the above parametrization of the Laplace distribution
+  we have that $E(u_t)=0$ and $Var(u_t)=2$,
+  so we are only interested in estimating $c$ and $\phi$
+  and not the standard deviation of $u_t$ as it is fixed.
 \begin{enumerate}
 \item Derive the log-likelihood function conditional on the first observation.
 \item Write a function that calculates the conditional log-likelihood of $c$ and $\phi$.
