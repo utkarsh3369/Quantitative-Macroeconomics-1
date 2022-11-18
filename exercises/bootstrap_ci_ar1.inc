@@ -62,7 +62,7 @@ To this end, we are going to do a so-called \enquote{\emph{bootstrap}},
 	\item \textcite[Ch. 12]{Kilian.Lutkepohl_2017_StructuralVectorAutoregressive}
 \end{itemize}
 
-\begin{solution}\textbf{Solution to \nameref{ex:PortmanteauTestResidualAutocorrelation}}
+\begin{solution}\textbf{Solution to \nameref{ex:BootstrapConfidenceIntervalARone}}
 \ifDisplaySolutions
 \input{exercises/bootstrap_ci_ar1_solution.inc}
 \fi

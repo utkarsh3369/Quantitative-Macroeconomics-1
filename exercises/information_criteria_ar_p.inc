@@ -6,7 +6,7 @@ SIC(n)  &= \log\tilde{\sigma}^2(n) + \frac{\log T^{eff}}{T^{eff}}n\\
 HQC(n)  &= \log\tilde{\sigma}^2(n) + \frac{2\log \log T^{eff}}{T^{eff}}n
 \end{align*}
 where $\tilde{\sigma}^2$ denotes the ML estimate of the variance term
-based on the OLS residuals $\hat{u}_t(n)$ of the corresponding estimated $AR(p)$ model.
+based on the residuals $\hat{u}_t(n)$ of the corresponding estimated $AR(p)$ model.
 $n$ is the number of estimated parameters and $T^{eff}=T-p^{max}$,
   where $p^{max}$ is the maximum number of lags to consider.
 \begin{enumerate}
@@ -17,9 +17,11 @@ Which one (asymptotically) over- or underestimates the correct order?
   using data vector $y$ and possible constant term ($const=1$)
   or constant term and linear trend ($const=2$).
   $nlag$ should output the recommended lag according to criteria $crit$,
-  which takes a string ($AIC$, $SIC$ or $HQC$) as input value.
+  which takes a string ($'AIC'$, $'SIC'$ or $'HQC'$) as input value.
 \item Load the dataset of the simulated AR(4) process given in the CSV file \texttt{AR4.csv}.
 Which model is preferred according to the order selection criteria?
+\item Simulate another stationary AR(4) processes with sample sizes $T = 150$
+  and redo the previous exercise.
 \end{enumerate}
 
 \paragraph{Readings}
