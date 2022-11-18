@@ -120,3 +120,21 @@ Basic undergraduate knowledge of macroeconomics as well as econometrics are requ
 - [ ] participate in the Q&A sessions with all your questions and concerns
 - [ ] for immediate help: [schedule a meeting](https://schedule.mutschler.eu)
 - [ ] (optionally) fork the course repository on GitHub
+
+
+## Week 6: Multivariate Time Series Concepts
+
+### Goals
+Familiarize yourself with
+- important matrix concepts such as Eigenvalues, Kronecker product, orthogonality, rotation matrices, Cholesky decomposition and Lyapunov equations
+- multivariate notation and dimensions of vectors and matrices for VAR(p) models
+- autocovariances, stability and covariance-stationarity in multivariate VAR(p) models
+- the companion form
+
+
+### To Do
+
+- [ ] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_5.pdf) (except the bootstrap one) and write down all your questions
+- [ ] Read Kilian and Lütkepohl (2007, Ch. 2.2) and Lütkepohl (2005, Chapter 2 and Appendix A). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+- [ ] Do exercise sheet 6 (the solutions are already available)
+- [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
