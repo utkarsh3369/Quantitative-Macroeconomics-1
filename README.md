@@ -138,3 +138,19 @@ Familiarize yourself with
 - [ ] Read Kilian and Lütkepohl (2007, Ch. 2.2) and Lütkepohl (2005, Chapter 2 and Appendix A). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 - [ ] Do exercise sheet 6 (the solutions are already available)
 - [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
+
+
+## Week 7: Estimating VAR models with OLS and ML
+
+### Goals
+
+- estimate VAR models with Ordinary Least Squares (OLS) and Maximum Likelihood (ML)
+- understand multivariate lag-order selection criteria
+
+
+### To Do
+
+- [ ] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_6.pdf) and write down all your questions
+- [ ] Read Kilian and Lütkepohl (2007, Ch. 2.3 and Ch. 2.6). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+- [ ] Do exercise sheet 7
+- [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
