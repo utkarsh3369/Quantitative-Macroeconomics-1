@@ -151,3 +151,19 @@ Familiarize yourself with
 * [ ] Read Kilian and Lütkepohl (2007, Ch. 2.3 and Ch. 2.6). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 * [ ] Do exercise sheet 7
 * [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
+
+
+## Week 8: Identification Problem in Structural Vector Autoregressive (SVAR) Models and Recursive Solution
+
+### Goals
+
+* understand the identification problem in SVAR models 
+* understand recursive identification
+* implement recursive identification both via Cholesky or numerical optimization
+
+### To Do
+
+* [ ] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_7.pdf) and write down all your questions
+* [ ] Read Kilian and Lütkepohl (2007, Ch. 4.1, Ch. 7.6, Ch.8, Ch.9). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+* [ ] Do exercise sheet 8
+* [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
