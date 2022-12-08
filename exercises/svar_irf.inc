@@ -45,7 +45,8 @@ Show that $$y_{t+h} = J A^{h+1} Y_{t-1}+ \sum_{j=0}^h J A^j J' u_{t+h-j}$$ where
 
 \item How would you infer from the response of the inflation rate, say $\Delta p_t$, the implied response of the log price level $p_t$?
  	
-\item Write a function that plots the IRFs given inputs $A$, $\Sigma_u$, $B_0^{-1}$, number of lags $p$ and maximum horizon $H$.
+\item Write a function that plots the IRFs given inputs $A$, $B_0^{-1}$, number of lags $p$, maximum horizon $H$,
+  an indicator vector whether the cumulative sum of the IRFs should be computed and string arrays for the names of the variables and shocks.
 \end{enumerate}
 
 \paragraph{Readings}

@@ -5,7 +5,7 @@
 \begin{document}
 \title{Quantitative Macroeconomics\\~\\Winter 2022/23\\~\\Week 8}
 \author{Willi Mutschler\\willi@mutschler.eu}
-\date{Version: 1.0.0\\Latest version available on: \href{https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_8.pdf}{GitHub}}
+\date{Version: 1.1.0\\Latest version available on: \href{https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_8.pdf}{GitHub}}
 \maketitle\thispagestyle{empty}
 
 \newpage
@@ -16,8 +16,13 @@
 \input{exercises/identification_problem_svar.inc}\newpage
 \input{exercises/svar_irf.inc}\newpage
 \input{exercises/svar_recursive.inc}\newpage
-\printbibliography
 \newpage
+
+\printbibliography
+\appendix
+\section{vech.m}
+\lstinputlisting[label=vech,,title=\lstname,style=Matlab-editor,basicstyle=\mlttfamily]{progs/matlab/vech.m}
+
 
 \Closesolutionfile{week_8_solution}
 \ifDisplaySolutions

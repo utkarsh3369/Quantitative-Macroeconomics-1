@@ -22,7 +22,7 @@ for the structural shocks: $\varepsilon_{t}=(\varepsilon_t^{MP}, \varepsilon_t^{
 
 \begin{solution}\textbf{Solution to \nameref{ex:IdentificationProblemSVAR}}
 \ifDisplaySolutions
-\input{exercises/identification_problem_svar.inc}
+\input{exercises/identification_problem_svar_solution.inc}
 \fi
 \newpage
 \end{solution}

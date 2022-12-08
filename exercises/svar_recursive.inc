@@ -26,11 +26,13 @@ The objective is to find the unknown elements of $B_0^{-1}$ such that
     F_{SR}(B_0^{-1}) = \begin{bmatrix} vech\left(B_0^{-1} B_0^{-1'} - \hat{\Sigma}_u\right),&b_0^{12},&b_0^{13},&b_0^{23}\end{bmatrix}'=0
 \end{align*}
 where the vech operator is used to select the lower triangular elements of $B_0^{-1}B_0^{-1'} - \hat{\Sigma_u}$.
+
 To this end:
 \begin{itemize}
 \item Write a function \texttt{fSR.m} that computes $F_{SR}$.
+A MATLAB implementation of the vech operator is given in listing \ref{vech}.
 \item Set the termination tolerance \texttt{TolX=1e-4}, the termination tolerance on the function value \texttt{TolFun} to \texttt{1e-9},
-  the maximum number of function evaluations \texttt{MaxFunEvals} to \texttt{1e50000},
+  the maximum number of function evaluations \texttt{MaxFunEvals} to \texttt{50000},
   the maximum number of iterations \texttt{MaxIter} to \texttt{1000}.
 Save this set of options:\texttt{options = optimset('TolX',TolX,\\'TolFun',TolFun,'MaxFunEvals',MaxFunEvals,'MaxIter',MaxIter)}
 \item Choose an admissible start value for $B_0^{-1}$
@@ -40,7 +42,8 @@ Save this set of options:\texttt{options = optimset('TolX',TolX,\\'TolFun',TolFu
 \end{itemize}
 Compare this to the Cholesky decomposition. Is there a difference?
  	
-\item Plot the impulse response function of an unexpected increase in the real price of crude oil (not its percent change!) using \texttt{IRFs.m} and interpret it economically.
+\item Plot the impulse response function for $H=30$ of an oil price shock on the real price of crude oil (in logs),
+  the GDP deflator inflation series and on the level of GDP (in logs) using \texttt{IRFs.m} and interpret it economically.
 \end{enumerate}
 
 \paragraph{Readings}
@@ -48,9 +51,10 @@ Compare this to the Cholesky decomposition. Is there a difference?
 	\item \textcite[Ch.~8-9]{Kilian.Lutkepohl_2017_StructuralVectorAutoregressive}
 \end{itemize}
 
+
 \begin{solution}\textbf{Solution to \nameref{ex:RecursivelyIdentifiedModels}}
 \ifDisplaySolutions
-\input{exercises/svar_recursive.inc}
+\input{exercises/svar_recursive_solution.inc}
 \fi
 \newpage
 \end{solution}
