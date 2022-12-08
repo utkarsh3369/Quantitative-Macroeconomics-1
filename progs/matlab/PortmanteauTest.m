@@ -46,8 +46,8 @@ Q_1 = T_1*sum(rho_1.*rho_1);
 % compute critical values and p values from chi2 distribution
 Qpcrit_phat = chi2inv(1-0.05,h-phat);
 Qpcrit_1 = chi2inv(1-0.05,h-1);
-Qpval_phat = chi2pdf(Q_p,h-phat);
-Qpval_1 = chi2pdf(Q_1,h-1);
+Qpval_phat = chi2cdf(Q_p,h-phat, "upper");
+Qpval_1 = chi2cdf(Q_1,h-1, "upper");
 
 % compare critical values and p values for AR(phat) and AR(1) model
 fprintf('\nTest Statistic > Critical Value\n')
