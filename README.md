@@ -167,3 +167,19 @@ Familiarize yourself with
 * [ ] Read Kilian and Lütkepohl (2007, Ch. 4.1, Ch. 7.6, Ch.8, Ch.9). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 * [ ] Do exercise sheet 8
 * [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
+
+
+## Week 9: Short-run and Long-run restrictions in Structural Vector Autoregressive (SVAR) Models
+
+### Goals
+
+* understand short-run restrictions and the impact matrix
+* understand long-run restrictions and the long-run multiplier matrix
+* implement short-run and long-run restrictions using numerical optimization
+
+### To Do
+
+* [ ] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_8.pdf) and write down all your questions
+* [ ] Read Kilian and Lütkepohl (2007, Ch. 4.1, Ch. 7.6, Ch.8, Ch.9, Ch.10.1, 10.3, 10.4, 10.5, 11.1, 11.2, 11.3). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+* [ ] Do exercise sheet 9
+* [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
