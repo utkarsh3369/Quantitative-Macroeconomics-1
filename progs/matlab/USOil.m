@@ -9,22 +9,22 @@
 clearvars; clc;close all;
 
 %% data handling
-y = importdata('../../data/USOil.csv');
-y = y.data; % already has correct order dlog(poil), dlog(p), dlog(gdp)
+USOil_data = importdata('../../data/USOil.csv');
+ENDO = USOil_data.data; % already has correct order dlog(poil), dlog(p), dlog(gdp)
 
 %% estimate reduced-form
 nlag = 4;
 opt.const = 1;
-VAR = VARReducedForm(y,nlag,opt);
+VAR = VARReducedForm(ENDO,nlag,opt);
 
 %% structural identification with Cholesky decomposition
-y = y(:,[1 2 3]); % order dlog(oilprice) first, then dlog(price deflator) and dlog(GDP)
-B0inv_chol = chol(VAR.SigmaOLS,'lower');
+ENDO = ENDO(:,[1 2 3]); % order dlog(oilprice) first, then dlog(price deflator) and dlog(GDP)
+B0inv_chol = chol(VAR.SigmaOLS([1 2 3],[1 2 3]),'lower');
 % note that the Cholesky decomposition always yields positive diagonal elements, so no normalization needed
 table(B0inv_chol)
 
 %% structural identification with numerical optimization, identification restrictions are put into auxiliar function USOil_fSR
-f = 'USOil_fSR';
+f = str2func('USOil_fSR');
 StartValueMethod = 1; %0: Use identity matrix, 1: use square root, 2: use cholesky as starting value
 % Options for fsolve
 TolX = 1e-4;         % termination tolerance on the current point
@@ -34,12 +34,15 @@ MaxIter = 1000;      % maximum numberof iterations allowed
 OptimAlgorithm = 'trust-region-dogleg'; % algorithm used in fsolve
 options = optimset('TolX',TolX,'TolFun',TolFun,'MaxFunEvals',MaxFunEvals,'MaxIter',MaxIter,'Algorithm',OptimAlgorithm);
 if StartValueMethod == 0
-    B0inv = eye(size(y,2)); % use identity matrix as starting value
+    B0inv = eye(size(ENDO,2)); % use identity matrix as starting value
 elseif StartValueMethod == 1
     B0inv = VAR.SigmaOLS^.5; % use square root of vcov of reduced form as starting value
 elseif StartValueMethod == 2
     B0inv = chol(VAR.SigmaOLS,'lower'); % use Cholesky decomposition of vcov of reduced form
 end
+f(B0inv,VAR.SigmaOLS)' % test whether function works at initial value (should give you no error)
+
+% call optimization routine fsolve to minimize f
 [B0inv_opt,fval,exitflag,output] = fsolve(f,B0inv,options,VAR.SigmaOLS);
 
 % Normalize sign of B0inv such that diagonal elements are positive
