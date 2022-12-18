@@ -183,3 +183,19 @@ Familiarize yourself with
 * [ ] Read Kilian and Lütkepohl (2007, Ch. 4.1, Ch. 7.6, Ch.8, Ch.9, Ch.10.1, 10.3, 10.4, 10.5, 11.1, 11.2, 11.3). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 * [ ] Do exercise sheet 9
 * [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
+
+
+## Week 10: Asymptotic and Bootstrap Inference in SVARs Identified By Exclusion Restrictions
+
+### Goals
+
+* understand pros and cons of asymptotic inference for the impulse-response function of SVAR models
+* understand pros and cons of bootstrap inference for the impulse-response function of SVAR models
+* compare asymptotic and bootstrap standard deviations of structural IRFs
+
+### To Do
+
+* [ ] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_9.pdf) and write down all your questions
+* [ ] Read Kilian and Lütkepohl (2007, Ch. 12.1-12.5, Ch. 12.9). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+* [ ] Do exercise sheet 10
+* [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
