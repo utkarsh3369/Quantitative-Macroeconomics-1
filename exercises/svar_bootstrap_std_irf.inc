@@ -8,7 +8,7 @@ As an exact closed-form solution for the asymptotic standard errors of $\theta$ 
 
 \item Compute $\widehat{std}(\hat{\theta}^\ast)$ via a bootstrap approximation by following these steps:
 \begin{itemize}
-    \item Write a function \texttt{BootstrapGDP(VAR)} which implements a standard residual-based bootstrap approach
+    \item Write a function \texttt{BootstrapGDP(VAR,opt)} which implements a standard residual-based bootstrap approach
       using sampling with replacement techniques on the residuals.
     Furthermore, the initial values should be drawn randomly in blocks.
     Hint: Use the companion form to do the simulations.
@@ -21,7 +21,7 @@ As an exact closed-form solution for the asymptotic standard errors of $\theta$ 
     \item For $b=1,...,B$ do the following (you may also try \texttt{parfor} instead of \texttt{for}
       in order to make use of Matlab's parallel computing toolbox if installed):
     \begin{itemize}
-        \item Compute a bootstrap GDP $y_t^{b}$ using the function \texttt{BootstrapGDP(VAR)}.
+        \item Compute a bootstrap GDP $y_t^{b}$ using the function \texttt{BootstrapGDP(VAR,opt)}.
         \item Estimate the reduced-form and structural impulse response function on this artificial dataset
           with the same methodology, settings and identification restrictions as in the estimation of the original dataset.
         \item Store the structural IRFs in \texttt{THETAstar} at position \texttt{(:,:,:,b)}.
