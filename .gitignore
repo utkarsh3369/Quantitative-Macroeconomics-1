@@ -25,12 +25,12 @@ week_*.pdf
 
 *.toc
 
-exam/template_exam_solution.log
-
-exam/template_exam_solution.pdf
-
 literature/
 
 stuff/
 
 class/
+
+*_exam_*.log
+*_exam_*.out
+*_exam_*.pdf
