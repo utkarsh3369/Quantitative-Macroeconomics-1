@@ -1,5 +1,5 @@
 [![Build LaTeX exercises as PDF](https://github.com/wmutschl/Quantitative-Macroeconomics/actions/workflows/latex-exercises.yml/badge.svg)](https://github.com/wmutschl/Quantitative-Macroeconomics/actions/workflows/latex-exercises.yml)
-
+[![Build LaTeX midterm exams as PDF](https://github.com/wmutschl/Quantitative-Macroeconomics/actions/workflows/latex-midterm-exams.yml/badge.svg)](https://github.com/wmutschl/Quantitative-Macroeconomics/actions/workflows/latex-midterm-exams.yml)
 # Quantitative Macroeconomics
 
 These are my course materials for the graduate course on Quantitative Macroeconomics taught at the University of Tübingen.
