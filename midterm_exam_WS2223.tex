@@ -20,7 +20,7 @@
 	
 \title{Quantitative Macroeconomics}
 \author{Midterm Exam}
-\date{Winter 2022/2023\\Version 1}
+\date{Winter 2022/2023\\Version 1.0.1}
 \maketitle
 
 \section*{General information}
@@ -38,8 +38,11 @@
 	\item If there are any questions, do not hesitate to contact Willi Mutschler.
 \end{itemize}
 
-%\section*{Changelog}
-%Version 1:
+\section*{Changelog}
+Version 1.0.1:
+\begin{itemize}
+	\item Exercise 4: The implied rotated impact matrix should be $\widetilde{B}_0^{-1}=PQ$ and not $\widetilde{B}_0^{-1}=QP$.
+\end{itemize}
 
 \newpage
 
@@ -199,7 +202,7 @@ To this end:
 	\item Initialize \texttt{n=1} and write a while loop that executes the following steps:
 		\begin{itemize}
 		\item Draw an orthogonal rotation matrix $Q$ using the function \texttt{drawRotationMatrixQ.m} in the appendix.
-		\item Compute the implied rotated impact matrix $\widetilde{B}_0^{-1}=QP$.
+		\item Compute the implied rotated impact matrix $\widetilde{B}_0^{-1}=PQ$.
 		\item Note that $\widetilde{B}_0^{-1}$ is a valid impact matrix, because $\hat{\Sigma}_u = \widetilde{B}_0^{-1} \widetilde{B}_0^{-1'}$.
 		However, we will only accept those impact matrices $\widetilde{B}_0^{-1}$ that fullfill the sign restrictions in equation \eqref{eq:signpattern}.
 		Therefore, use if statements to check whether $\widetilde{B}_0^{-1}$ is a valid impact matrix:
