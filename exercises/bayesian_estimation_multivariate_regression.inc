@@ -19,7 +19,7 @@ Provide an overview of the basic steps and algorithm of the Gibbs sampling algor
 
 \paragraph{Readings}
 \begin{itemize}
-	\item \textcite[Ch. 7]{Greenberg_2014_IntroductionBayesianEconometrics}
+	\item \textcite[Ch. 7.1]{Greenberg_2008_IntroductionBayesianEconometrics}
 	\item \textcite[Ch. 3]{Koop_2003_BayesianEconometrics} 
 \end{itemize}
 

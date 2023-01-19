@@ -12,7 +12,7 @@ The objective of the econometrician is thus to estimate $\mu$.
 
 \paragraph{Readings}
 \begin{itemize}
-\item \textcite[Part I]{Greenberg_2014_IntroductionBayesianEconometrics}
+\item \textcite[Part I]{Greenberg_2008_IntroductionBayesianEconometrics}
 \item \textcite[Ch.1-2]{Koop_2003_BayesianEconometrics} 
 \end{itemize}
 

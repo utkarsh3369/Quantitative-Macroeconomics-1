@@ -30,7 +30,7 @@ Plot the data.
 \paragraph{Readings}
 \begin{itemize}
 	\item \textcite{Chib.Greenberg_1994_BayesInferenceRegression}
-	\item \textcite[Ch.~11.1]{Greenberg_2014_IntroductionBayesianEconometrics}
+	\item \textcite[Ch.~10.1]{Greenberg_2008_IntroductionBayesianEconometrics}
 \end{itemize}
 
 \begin{solution}\textbf{Solution to \nameref{ex:BayesianEstimationMultivariateLinearRegressionModel}}

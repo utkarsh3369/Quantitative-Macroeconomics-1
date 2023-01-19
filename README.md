@@ -213,7 +213,7 @@ Familiarize yourself with
 ### To Do
 
 * [ ] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_10.pdf) and write down all your questions
-* [ ] Read Greenberg (2014, Part I, Ch. 7, Ch. 11.1), Koop (2003, Ch. 1-3), and Chib and Greenberg (1994). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+* [ ] Read Greenberg (2008, Part I, Ch. 7.1, Ch. 10.1), Koop (2003, Ch. 1-3), and Chib and Greenberg (1994). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 * [ ] Do exercise sheet 11
 * [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
 
