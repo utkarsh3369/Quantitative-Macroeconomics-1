@@ -4,7 +4,7 @@ Consider the following K-variable VAR(p) model:
 y_t = c + A_1 y_{t-1} + ... + A_p y_{t-p} + u_t= AZ_{t-1} + u_t
 \end{align*}
 where $E(u_t)=0$, $E(u_t u_t')=\Sigma_{u}$ and $E(u_t u_s')=0$ for $t\neq s$.
-Define $\alpha = vec(A)$ and assume that $\varepsilon_t|y_{t-1},...,y_1\sim N(0,\Sigma)$.
+Define $\alpha = vec(A)$ and assume that $u_t|y_{t-1},...,y_1\sim N(0,\Sigma)$.
 \begin{enumerate}
 \item Explain why Bayesian methods are especially attractive when estimating a VAR(p) model.
 \item Assume that the prior for $\alpha$ is normal with mean $\alpha_0$ and covariance matrix $V_0$. Provide an expression for the posterior conditional on $\Sigma$.
