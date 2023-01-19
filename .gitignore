@@ -34,3 +34,5 @@ class/
 *_exam_*.log
 *_exam_*.out
 *_exam_*.pdf
+
+progs/matlab/*.log
