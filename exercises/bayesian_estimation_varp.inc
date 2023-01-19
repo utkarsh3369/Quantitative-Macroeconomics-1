@@ -24,7 +24,7 @@ and have a look at a possible implementation of it given the file \texttt{BVARMi
 
 \begin{solution}\textbf{Solution to \nameref{ex:BayesianEstimationVARp}}
 \ifDisplaySolutions
-\input{exercises/bayesian_estimation_varp.inc}
+\input{exercises/bayesian_estimation_varp_solution.inc}
 \fi
 \newpage
 \end{solution}
