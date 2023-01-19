@@ -199,3 +199,37 @@ Familiarize yourself with
 * [ ] Read Kilian and Lütkepohl (2007, Ch. 12.1-12.5, Ch. 12.9). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 * [ ] Do exercise sheet 10
 * [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
+
+
+## Week 11: Introduction to Bayesian estimation and the Gibbs sampler
+
+### Goals
+
+* understand the difference between Frequentist and Bayesian Bayesian estimation methods
+* get familiar with the terminology and key ingredients of the Bayesian framework
+* understand the Gibbs sampler
+* estimate a multivariate linear regression model and an univariate autoregressive model with Bayesian techniques
+
+### To Do
+
+* [ ] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_10.pdf) and write down all your questions
+* [ ] Read Greenberg (2014, Part I, Ch. 7, Ch. 11.1), Koop (2003, Ch. 1-3), and Chib and Greenberg (1994). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+* [ ] Do exercise sheet 11
+* [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
+
+
+## Week 12: Bayesian estimation of VAR models and the Minnesota prior
+
+### Goals
+
+* apply the Bayesian estimation framework and methods from last week to the multivariate case
+* understand the Minnesota prior
+* estimate a multivariate vector autoregressive model with Bayesian techniques and a Minnesota prior that is fine-tuned to include the zero-lower-bound period of nominal interest rates
+
+
+### To Do
+
+* [ ] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_11.pdf) and write down all your questions
+* [ ] Read Kilian and Lütkepohl (2017, Ch. 5) and Koop and Korobilis (2010, Ch. 1-2). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+* [ ] Do exercise sheet 12
+* [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
