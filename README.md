@@ -233,3 +233,23 @@ Familiarize yourself with
 * [ ] Read Kilian and Lütkepohl (2017, Ch. 5) and Koop and Korobilis (2010, Ch. 1-2). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 * [ ] Do exercise sheet 12
 * [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
+
+
+
+## Week 13: Introduction to DSGE models
+
+### Goals
+
+* understand the DSGE model framework, its basic structure and key challenges
+* understand the algebra of a basic RBC model and of a basic New Keynesian model
+* compute the steady-state of the RBC model with either MATLAB or Dynare
+
+
+### To Do
+
+* [ ] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_12.pdf) and write down all your questions
+* [ ] Read Fernandez-Villaverde, Rubio-Ramirez, and Schorfheide (2016, Ch.1) and Torres (2013, Ch. 1).
+* [ ] Read EITHER Gali (2015, Ch. 3) OR Heijdra (2017, Ch. 9) OR Romer (2019, Ch. 7) OR Woodford (2003, Ch. 3) OR Walsh (2017, Ch. 8)
+* [ ] Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+* [ ] Do exercise sheet 13
+* [ ] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
