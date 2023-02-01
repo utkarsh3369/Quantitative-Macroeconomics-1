@@ -37,3 +37,15 @@ class/
 
 progs/matlab/*.log
 exam/
+
+progs/dynare/\+rbc_ces/
+
+progs/dynare/\+rbc_logutil/
+
+progs/dynare/rbc_ces/
+
+progs/dynare/rbc_logutil/
+
+progs/dynare/rbc_ces.log
+
+progs/dynare/rbc_logutil.log

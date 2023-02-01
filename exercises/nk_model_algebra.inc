@@ -4,7 +4,7 @@ Consider the basic New Keynesian (NK) model without capital, a linear production
 \paragraph{Households} The economy is assumed to be inhabitated by a large number of identical households.
 The representative household maximizes present as well as expected future utility
 \begin{align*}
-\max E_t \sum_{j=0}^{\infty} \beta^{j} U(c_{t+j}, l_{t+j}^s, z_{t+j})
+\max E_t \sum_{j=0}^{\infty} \beta^{j} U(c_{t+j}, l_{t+j}, z_{t+j})
 \end{align*}
 with $\beta <1$ denoting the discount factor and $E_t$ is the expectation operator conditional on information at time $t$.
 The contemporaneous utility function 
