@@ -17,3 +17,10 @@
 	\item Derive the unconditional first two moments of the model variables from the first-order approximated system.
  	\item Illustrate the numerical approach and algorithm for the Basic New Keynesian Model of the previous exercise.
 \end{enumerate}
+
+\begin{solution}\textbf{Solution to \nameref{ex:PerturbationDynareFirstOrder}}
+\ifDisplaySolutions
+\input{exercises/perturbation_first_order_dynare_solution.inc}
+\fi
+\newpage
+\end{solution}

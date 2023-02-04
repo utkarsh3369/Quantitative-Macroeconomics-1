@@ -27,3 +27,10 @@ In the following exercises, we'll make use of the following notation: (1) a time
 	\item Write a function called \texttt{dsge\_loglikelihood.m} that computes the log-likelihood for any DSGE model by first solving the model with first-order perturbation techniques and then summing up the conditional log-likelihood contributions $\log p(d_t|d^{t-1})$ computed by above function \texttt{dsge\_kalman\_filter.m}. Note that the inputs are data matrix $d^T$ and numerical values for the parameters (both model and covariance matrix parameters).
 	\item Compute the log-likelihood function of the Basic New Keynesian model given a feasible calibration for the model and covariance parameters. Use the simulated data provided in \texttt{BasicNewKeynesianSimdat.mat}.
 \end{enumerate}
+
+\begin{solution}\textbf{Solution to \nameref{ex:KalmanFilterDSGE}}
+\ifDisplaySolutions
+\input{exercises/kalman_filter_solution.inc}
+\fi
+\newpage
+\end{solution}
